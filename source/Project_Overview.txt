@@ -1,0 +1,32 @@
+
+ CSV Data: Singapore resale transaction from Jan. 2014 to Dec. 2023
+    Columns:
+        month,
+        town,
+        flat_type,
+        block,
+        street_name,
+        storey_range,
+        floor_area_sqm,
+        flat_model,
+        lease_commence_date,
+        resale_price
+
+    Columns needed:
+        town
+        month (YYYY-MM)
+        resale_price
+        floor_area_sqm
+
+
+    For Each of the 6 statistic:
+        Price: Average Price, Minimum Price, Standard Deviation of Price
+        Area: Average Area, Minimum Area, Standard Deviation of Area
+
+        Results needed:
+        Year,Month,town,Category,Value
+
+    Queries to be run:
+        U2120866H  - 2016 June Woodlands
+        U2022097E  - 2017 September Ang Mo Kio
+        U2120937B  - 2017 March Yishun
